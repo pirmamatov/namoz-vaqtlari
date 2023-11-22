@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../nomoz vaqtlari/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+  
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#"
+              ><img class="logosite" src="../nomoz vaqtlari/logo.jpg" alt=""
+            /></a>
+          </div>
+          <p class="caption">
+            1445 yil 8 jumadul avval | <span class="data"></span>, <span class="weekday">
+              chorshanba
+            </span>
+          </p>
+          <div class="calendar">Kalendar</div>
+          <div class="mintaqa">
+            <h6 class="min">Mintaqa:</h6>
+            <form action="" class="form">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                onchange="getSelectValue()"
+              >
+                <option tion value="Qarshi">Qashqadaryo</option>
+                <option value="Andijon">Andijon</option>
+                <option value="Buxoro">Buxoro</option>
+                <option value="Farg'ona">Farg'ona</option>
+                <option value="Jizzax">Jizzax</option>
+                <option value="Xiva">Xorazm</option>
+                <option value="Namangan">Namangan</option>
+                <option value="Navoiy">Navoiy</option>
+                <option value="Nukus">Qoraqalpog'iston</option>
+                <option value="Samarqand">Samarqand</option>
+                <option value="Guliston">Sirdaryo</option>
+                <!-- <option value="Qarshi">Surxondaryo</option> -->
+                <option value="Toshkent">Toshkent</option>
+              </select>
+            </form>
+          </div>
+
+          <div class="tillar">
+            <button class="uz">Uz</button>
+            <button class="uz">Ru</button>
+            <button class="uz">En</button>
+            <button class="uz">Ўз</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="rows">
+          <div class="rows-one">
+            <a href="#">Aqiyda</a>
+            <a href="#">Qur'on</a>
+            <a href="#">Hadis</a>
+            <a href="#">Tafsir</a>
+            <a href="#">Siyrat</a>
+            <a href="#">Tezkiya</a>
+            <a href="#">Kutubxona</a>
+            <a href="#">Fiqh</a>
+            <a href="#">Darslar</a>
+            <a href="#">Media</a>
+            <a href="#">Maqollar</a>
+          </div>
+          <div class="rows-two"><button class="hazrat">Hazratim</button></div>
+        </div>
+      </div>
+      <div class="bgMain">
+        <div class="container circleContainer">
+          <div class="circles">
+            <div class="circlesCaption">
+              <h3>Namoz vaqtlari: <span class="regionName"></span></h3>
+            </div>
+            <div class="circleEl">
+              <div class="backCircle">
+                <div class="circle">
+                  <p class="leftTime"></p>
+                  <p class="enterTimeTong"></p>
+                  <p class="nameOfTime">Tong</p>
+                </div>
+              </div>
+              <div class="backCircle">
+                <div class="circle">
+                  <p class="leftTime"></p>
+                  <p class="enterTimeQuyosh"></p>
+                  <p class="nameOfTime">Quyosh</p>
+                </div>
+              </div><div class="backCircle">
+                <div class="circle">
+                  <p class="leftTime"></p>
+                  <p class="enterTimePeshin"></p>
+                  <p class="nameOfTime">Peshin</p>
+                </div>
+              </div><div class="backCircle">
+                <div class="circle">
+                  <p class="leftTime"></p>
+                  <p class="enterTimeAsr"></p>
+                  <p class="nameOfTime">Asr</p>
+                </div>
+              </div><div class="backCircle">
+                <div class="circle">
+                  <p class="leftTime"></p>
+                  <p class="enterTimeShom"></p>
+                  <p class="nameOfTime">Shom</p>
+                </div>
+              </div><div class="backCircle">
+                <div class="circle">
+                  <p class="leftTime"></p>
+                  <p class="enterTimeXufton"></p>
+                  <p class="nameOfTime">Xufton</p>
+                </div>
+              </div>    
+              
+            </div>
+          </div>
+          <div class="shior">
+            <div class="shayxImg">
+              <img class="shayx" src="./shayx.jpg" alt="" />
+            </div>
+            <p>
+              Shiorimiz: <br />
+              Ahli sunna val-jamoa mazhabi asosida pok aqiyda va musaffo Islomga
+              intilish, Qur'on va sunnatni o‘rganib, amal qilish, islomiy
+              ma'rifat taratish, salafi solih – ulug‘ mujtahidlarga ergashish,
+              kеngbag‘irlik va birodarlik ruhini tarqatish.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

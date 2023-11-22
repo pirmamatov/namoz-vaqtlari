@@ -1,0 +1,196 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* cursor: pointer; */
+}
+body {
+  background-color: #0d873d;
+}
+header {
+  background-color: #11a54b;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+}
+main {
+  background-color: #0d873d;
+}
+.bgMain {
+  padding: 30px 0px 50px;
+  background-image: url(https://islom.uz/img/header_hufton.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+  /* position: relative; */
+}
+.bgMain h3 {
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+  /* left: 350px; */
+  /* position: absolute; */
+}
+.enterTimeTong, .enterTimeAsr, .enterTimePeshin, .enterTimeShom, .enterTimeXufton, .enterTimeQuyosh {
+    font-size: 28px;
+}
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+    font-size: 18px; 
+    cursor: pointer;
+    font-weight: 500;
+    color: #0b723b;
+}
+.bgMain h3 span {
+  font-weight: 600;
+}
+.rows {
+  padding: 20px 0;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+}
+.rows-one {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.rows-one a {
+  color: #fff;
+  text-decoration: none;
+}
+.logosite {
+  width: 120px;
+  height: 120px;
+}
+.mintaqa {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+.min {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.caption {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.form-select {
+  color: #fff;
+  background-color: #1e6814;
+  font-weight: 500;
+  padding: 2px;
+}
+.calendar {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+option {
+  align-items: center;
+}
+.uz {
+  width: 36.81px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1e6814;
+  height: 29.8px;
+  border: 1px solid #1e6814;
+}
+.hazrat {
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #2af379;
+  color: #fff;
+  font-weight: 600;
+}
+.circles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+.circleEl {
+  width: 100%;
+  padding-top: 30px;
+  /* width: 60%; */
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.circleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.shior {
+  width: 36%;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0.8;
+  border-radius: 32px;
+  padding: 12px 32px;
+  /* overflow: hidden; */
+}
+.shayxImg {
+  position: relative;
+  background-color: #fff;
+}
+.shayx {
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  /* height: 90px; */
+  position: absolute;
+  right: -80px;
+  top: -60px;
+}
+.shior p {
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.backCircle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  width: 94px;
+  height: 94px;
+  border: 1.4px solid #11a54b;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+.circle:hover {
+  background-color: #11a54b;
+  color: #fff;
+}
